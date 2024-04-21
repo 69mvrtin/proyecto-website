@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+<link rel="stylesheet" href="css/servicios.css">
+
+</head>
+<body>
+
+
+<!-- ini encabezado -->
+    <header class="header">
+    <div class="menu container">
+        <a href="#" class="logo">CheloTEC</a>
+        <input type="checkbox" id="menu">
+        <label for="menu"><img src="imagenes/menu.png" class="menu-icono" alt="menu"></label>
+        <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="componentes.html">Productos</a></li>
+            <li><a href="#">Seguimiento</a></li>
+            <li><a href="#">Entrega</a></li>
+        </ul>
+        </nav>
+        <div>
+        <ul>
+            <li class="submenu">
+            <img src="imagenes/car.svg" id="img-carrito" alt="">
+            <div id="carrito">
+                <table id="lista-carrito">
+                <thead>
+                    <tr>
+                    <th>Imagen</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+                </table>
+                <a href="#" id="vaciar-carrito" class="btn-2">Vaciar carrito</a>
+            </div>
+            </li>
+        </ul>
+        
+        </div>
+    </div>
+    <div class="header-content container">
+            <h1>Servicios</h1>
+            <p>
+                diferentes servicios como reparacion, limpieza, formateo,
+                instalacion de softwares, etc.
+            </p>
+            <div class="botons">
+            <a href="index.html" class="btn-1">Menu</a>
+            </div>
+    </div>
+    </header>
+<!-- fin encabezado -->>
+
+    <!--recetas 2 -->
+    <section class="recetas container">
+    <div class="recetas-2">
+        <h2> <br>servicios <br></h2>
+    </div>
+    </div>
+    </section>
+
+        <!--platillos 2 -->
+    <section class="platillos container" id="lista-2">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="platillo">
+            <h3 class="c1">Mantencion</h3>
+            <p class="precio">$200</p>
+            <img src="imagenes/Mantencion-de-PC.png" alt="">
+            <p class="c2">desdes mantencion basica que conlleva limpieza general del pc,
+                hasta la mantencion completa cambio de pasta termica a procesador y tarjeta de video
+            </p>
+            <a href="#" class="agregar-carrito btn-3" data-id="5"> Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="platillo">
+            <h3 class="c1">Formateo</h3>
+            <p class="precio">$200</p>
+            <img src="imagenes/formateopc.png" alt="">
+            <p class="c2"> reinstalar windows en caso de que el pc este dando problemas
+                o contenga algun virus
+            </p>
+            <a href="#" class="agregar-carrito btn-3" data-id="6"> Agregar al Carrito</a>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="platillo">
+            <h3 class="c1">Armado</h3>
+            <p class="precio">$200</p>
+            <img src="imagenes/gabinetes.png" alt="">
+            <p class="c2">armado de pc completo con instalacion de windows,  buen orden de cables
+            </p>
+            <a href="#" class="agregar-carrito btn-3" data-id="7"> Agregar al Carrito</a>
+            </div>
+        </div>
+        </div>
+        <!-- Fin platillos 2 -->
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
